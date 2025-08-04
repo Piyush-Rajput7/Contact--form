@@ -15,14 +15,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .container {
   background: hsl(0, 0%, 100%);
   border-radius: 16px;
-  padding: 2.5rem;
-  max-width: 736px;
+  padding: 1.5rem;
+  max-width: 600px;
   width: 100%;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
   position: relative;
@@ -31,15 +31,15 @@ body {
 /* Heading */
 h1 {
   font-weight: 700;
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
   color: hsl(187, 24%, 22%);
   letter-spacing: -1px;
 }
 
 /* Form rows */
 .form-row {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .two-cols {
@@ -52,7 +52,7 @@ h1 {
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .input-wrapper {
@@ -62,10 +62,10 @@ h1 {
 /* Labels */
 label,
 fieldset legend {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   color: hsl(187, 24%, 22%);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   display: block;
 }
 
@@ -78,8 +78,8 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 0.75rem 1.5rem;
-  font-size: 1.125rem;
+  padding: 0.625rem 1rem;
+  font-size: 0.95rem;
   font-weight: 400;
   font-family: "Karla", sans-serif;
   border: 1px solid hsl(186, 15%, 59%);
@@ -108,37 +108,39 @@ textarea.error {
 }
 
 textarea {
-  min-height: 105px;
+  min-height: 65px;
   font-family: "Karla", sans-serif;
 }
 
 /* Radio group */
 .radio-group {
   border: none;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .radio-group legend {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.radio-options-container {
+  display: flex;
+  gap: 1rem;
 }
 
 .radio-option {
+  flex: 1;
   display: flex;
   align-items: center;
   border: 1px solid hsl(186, 15%, 59%);
   border-radius: 8px;
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 1rem;
   cursor: pointer;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: hsl(187, 24%, 22%);
   font-weight: 400;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   user-select: none;
   transition: background-color 0.3s ease, border-color 0.3s ease;
-}
-
-.radio-option:last-child {
-  margin-bottom: 0;
 }
 
 .radio-option:hover {
@@ -162,11 +164,11 @@ textarea {
 .checkbox {
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
-  font-size: 1rem;
+  gap: 0.625rem;
+  font-size: 0.95rem;
   font-weight: 400;
   color: hsl(187, 24%, 22%);
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .checkbox input[type="checkbox"] {
@@ -185,13 +187,13 @@ textarea {
 /* Button */
 button {
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 0.75rem 2rem;
   background-color: hsl(169, 82%, 27%);
   border: none;
   border-radius: 8px;
   color: hsl(0, 0%, 100%);
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 0.95rem;
   font-family: "Karla", sans-serif;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -206,11 +208,11 @@ button:focus {
 /* Error message */
 .error {
   color: hsl(0, 66%, 54%);
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
   display: block;
-  min-height: 1.25rem;
+  min-height: 0.75rem;
 }
 
 /* Toast */
