@@ -38,14 +38,16 @@
 
         <fieldset class="form-group radio-group">
           <legend>Query Type <span>*</span></legend>
-          <label class="radio-option">
-            <input type="radio" name="query" value="general" required />
-            General Enquiry
-          </label>
-          <label class="radio-option">
-            <input type="radio" name="query" value="support" />
-            Support Request
-          </label>
+          <div class="radio-options-container">
+            <label class="radio-option">
+              <input type="radio" name="query" value="general" required />
+              General Enquiry
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="query" value="support" />
+              Support Request
+            </label>
+          </div>
           <p class="error" aria-live="polite"></p>
         </fieldset>
 
