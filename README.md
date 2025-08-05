@@ -1,11 +1,11 @@
 # Contact Form Component (Frontend Mentor Challenge)
 
-**Focus pn ACCESSIBILITY**
+**Focus On ACCESSIBILITY**
 
 This is a fully responsive, accessible contact form built from scratch based on the design provided in the [Frontend Mentor](https://www.frontendmentor.io) challenge. It includes form validation, keyboard navigation support, screen reader announcements, and a success toast message upon submission.
 
-![Mobile Design](./mobile-design.jpg)
-![Desktop Design](./desktop-design.jpg)
+
+![Desktop Design](Screenshot 2025-08-05 001957.png)
 
 ## 🚀 Live Preview
 
